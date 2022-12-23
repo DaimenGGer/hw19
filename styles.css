@@ -1,0 +1,39 @@
+body{
+    padding: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1.5px solid;
+    border-radius: 5px;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+}
+input{
+    height: 40px;
+    font-size: 26px;
+}
+.btn{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(84, 164, 244);
+    color: aliceblue;
+}
+#rav{
+    width: 200px;
+    background-color: rgb(73, 182, 73);
+}
+#result{
+    border: 0.1px solid black;
+    height: 40px;
+    font-size: 30px;
+    margin: 0;
+}
